@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProbabilityAndStatistics">
+
         <activity
             android:name=".Coeficient_R"
             android:exported="false" />
         <activity
             android:name=".Correlation"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Home"/>
         <activity
             android:name=".MainActivity"
+            android:theme="@style/SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
