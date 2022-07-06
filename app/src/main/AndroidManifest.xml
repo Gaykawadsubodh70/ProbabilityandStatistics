@@ -10,15 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProbabilityAndStatistics">
         <activity
+            android:name=".Rank_RS"
+            android:exported="false"
+            android:label="Rank Coefficient"/>
+        <activity
             android:name=".Home"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Home"/>
         <activity
             android:name=".SolutionR"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Solution"/>
         <activity
             android:name=".Coefficient_R"
             android:exported="false"
-            android:label="Home" />
+            android:label="Coefficient of Correlation ( R )"/>
         <activity
             android:name=".SplashScreen"
             android:exported="true"

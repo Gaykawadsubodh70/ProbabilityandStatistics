@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Rank is Given</item>
+        <item>Rank is not Given</item>
+        <item>Repeated Rank</item>
+    </string-array>
+</resources>

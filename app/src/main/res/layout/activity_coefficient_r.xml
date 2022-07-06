@@ -80,6 +80,8 @@
         app:layout_constraintVertical_bias="0.269" />
 
     <Spinner
+        android:padding="2dp"
+        android:background="@drawable/border"
         android:id="@+id/given"
         android:layout_width="262dp"
         android:layout_height="34dp"

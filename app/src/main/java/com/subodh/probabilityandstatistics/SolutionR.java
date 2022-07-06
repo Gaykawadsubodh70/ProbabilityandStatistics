@@ -81,39 +81,8 @@ public class SolutionR extends AppCompatActivity {
         vox.setText("r = "+String.format("%.4f",r));
         //https://stackoverflow.com/questions/18207470/adding-table-rows-dynamically-in-android
 
-        //init();
     }
 
-    /*
-    public void init()
-    {
-
-
-        for (int i=0; i<25; i++)
-        {
-            TableRow tbr = new TableRow(this);
-            TextView t1v = new TextView(this);
-            t1v.setText(""+i);
-            t1v.setTextColor(Color.BLACK);
-            t1v.setGravity(Gravity.CENTER);
-            tbr.addView(t1v);
-
-            TextView t2v = new TextView(this);
-            t2v.setText(""+i+10);
-            t2v.setTextColor(Color.BLACK);
-            t2v.setGravity(Gravity.CENTER);
-            tbr.addView(t2v);
-
-            TextView t3v = new TextView(this);
-            t3v.setText(""+i*(i+10));
-            t3v.setTextColor(Color.BLACK);
-            t3v.setGravity(Gravity.CENTER);
-            tbr.addView(t3v);
-            tbl.addView(tbr);
-        }
-    }
-
-     */
 
     public void head(TableLayout tbl)
     {
@@ -179,13 +148,6 @@ public class SolutionR extends AppCompatActivity {
 
         tbl.addView(tbr0);
 
-        /*
-        TextView tv2 = new TextView(this);
-        tv2.setText("xy");
-        tv2.setTextColor(Color.BLACK);
-        tbr0.addView(tv2);
-
-        tbl.addView(tbr0); */
     }
 
     public void addrw(TableLayout tbl,int i, double a,double b,double c, double d,double xy,double x,double y)
