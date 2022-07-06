@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.view.Gravity;
 import android.widget.TableLayout;
 import android.widget.TableRow;
@@ -12,14 +11,14 @@ import android.widget.TextView;
 import android.os.Bundle;
 import java.lang.Math;
 
-public class Coeficient_R extends AppCompatActivity {
+public class SolutionR extends AppCompatActivity {
     TextView vox;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_coeficient_r);
+        setContentView(R.layout.activity_solution_r);
         vox=findViewById(R.id.vor);
         TableLayout tbl= (TableLayout) findViewById(R.id.tbl);
         Intent intent=getIntent();
