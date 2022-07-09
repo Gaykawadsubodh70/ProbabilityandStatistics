@@ -1,7 +1,7 @@
 package com.subodh.probabilityandstatistics;
 
+import java.util.*;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.view.View;
 import android.widget.AdapterView;
@@ -73,6 +73,14 @@ public class Coefficient_R extends AppCompatActivity {
                                     intent.putExtra("pos",0);
                                     startActivity(intent);
                                 }
+                                else if(i==1)
+                                {
+                                    Intent intent =new Intent(Coefficient_R.this, Rank_RS.class);
+                                    intent.putExtra("vox",vox.getText().toString());
+                                    intent.putExtra("voy",voy.getText().toString());
+                                    intent.putExtra("pos",1);
+                                    startActivity(intent);
+                                }
 
                             }
                             else{
@@ -112,4 +120,6 @@ public class Coefficient_R extends AppCompatActivity {
             }
         });
     }
+
+
 }
